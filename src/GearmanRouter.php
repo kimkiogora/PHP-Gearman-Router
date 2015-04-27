@@ -1,4 +1,4 @@
-
+<?php
 /**
  * This file is a router to the gearman service.
  * Used for synchronous processing of requests.
