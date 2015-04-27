@@ -18,7 +18,10 @@ class GearmanRouter {
      * 
      * @param type $json_request
      */
-    public static function route($log,$requestLogID,$json_request) {
+    public static function route($log,$uniqueID,$json_request) {
+        /**
+         * Log your uinique_id or sth
+         */
         $gearman_client = new GearmanClient();
         $gearman_client->addServer();
         $result = $gearman_client->doBackground("request",$json_request);
