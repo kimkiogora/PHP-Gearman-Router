@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is a worker that processes Gearman Requests from Hub Services.
+ * This file is a worker that processes Gearman Requests from any Service Layer.
  * Used for synchronous processing of requests.
  *
  * PHP VERSION 5.3.6
