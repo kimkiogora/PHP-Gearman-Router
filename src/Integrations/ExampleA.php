@@ -31,11 +31,12 @@ class ExampleA {
 
         /**
          * Add processing functionality here, such as send to external
-         * third-party, then close this transaction by invoking postPaymentACK
+         * third-party
          */
         
         /**
-         * Close the transaction
+         * Close the transaction for example by updating the transaction 
+         * in the database. 
          */
         
     }
